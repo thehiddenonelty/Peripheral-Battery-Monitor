@@ -1,0 +1,51 @@
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js / Electron
+node_modules/
+.npm/
+.cache/
+
+# Build outputs
+build/
+dist/
+out/
+Debug/
+Release/
+*.exe
+*.msi
+*.msix
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+
+# Temporary archives
+*.zip
+*.7z
+*.rar
